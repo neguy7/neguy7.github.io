@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box
+  }
+  
+.sidebar {
+    background-color: #C7FF6E;
+    color: white;
+    position: fixed;
+    left: 8px;
+    top: 190px;
+    bottom: 215px;
+    width: 75px;
+    border-radius: 4px;
+}
+
+.icona1 {
+    width: 65px;
+    position: fixed;
+    left: 12px;
+    top: 230px;
+    bottom: 100px;
+}
+
+.icona1:hover {
+    width: 5%;
+    left: 10px;
+}
+
+.icona2 {
+    width: 65px;
+    position: fixed;
+    left: 12px;
+    top: 490px;
+}
+
+.icona2:hover {
+    width: 5%;
+    left: 10px;
+}
+
+.icona3 {
+    width: 65px;
+    position: fixed;
+    left: 12px;
+    top: 360px;
+}
+
+.icona3:hover {
+    width: 5%;
+    left: 10px;
+}
+
+.text1 {
+    color: #7975EF;
+    position: fixed;
+    left: 23px;
+    top: 190px;
+}
+
+.text2 {
+    color: #7975EF;
+    position: fixed;
+    left: 17px;
+    top: 327px;
+}
+
+.text3 {
+    color: #7975EF;
+    position: fixed;
+    left: 25px;
+    top: 454px;
+}

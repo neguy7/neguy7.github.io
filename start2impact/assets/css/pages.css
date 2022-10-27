@@ -1,0 +1,135 @@
+* {
+   box-sizing: border-box
+ }
+ 
+.info2 {
+    position: relative;
+    padding-top: 200px;
+ }
+
+ .info {
+    position: relative;
+    left: 320px;
+    top: -285px; 
+ }
+
+ .workingprogress {
+    position: relative;
+    left: 395px;
+    top: -275px;
+ }
+
+.social1 {
+   max-width: 550px;
+   text-align: justify;
+   position: relative;
+   left: 330px;
+   top: -300px;
+}
+
+.social2 {
+   max-width: 550px;
+   text-align: justify;
+   position: relative;
+   left: 330px;
+   top: -300px;
+   margin-top: 10px;
+}
+
+.social3 {
+   max-width: 550px;
+   text-align: justify;
+   position: relative;
+   left: 330px;
+   top: -300px;
+   margin-top: 10px;
+}
+
+.icona6 {
+   width: 15%;
+}
+
+.icona6:hover {
+   width: 19%;
+}
+
+.icona5:hover {
+   width: 21%;
+}
+
+.icona7 {
+   width: 15%;
+}
+
+.icona7:hover {
+   width: 19%;
+}
+
+/* email form */
+h1, input, textarea, select, option {
+   color: #555;
+}
+
+legend {
+   color: #7975EF
+}
+
+h1 {
+   font-weight: bold;
+   font-size: 30px;
+}
+
+#email {
+   margin-left: 60px;
+}
+
+#name {
+   margin-left: 28px;
+}
+
+#phone {
+   margin-left: 47px;
+}
+
+#subject {
+   margin-left: 57px;
+}
+
+#message {
+   margin-left: 34px;
+}
+
+#file {
+   margin-left: 10px;
+   border: 0px;
+}
+
+#submit {
+   margin-left: 113px;
+   background-color: #C7FF6E;
+   color: #7975EF;
+   border: 0px;
+   font-weight: bold;
+   font-size: 16px;
+}
+input, textarea, select {
+   padding: 8px;
+   border: 1px solid rgb(141, 141, 141);
+   border-radius: 5px;
+   margin-top: 20px;
+}
+
+legend {
+   background-color: #C7FF6E;
+   font-weight: bold;
+   padding: 10px;
+   border: 1px solid rgb(141, 141, 141);
+   border-radius: 5px;
+}
+
+fieldset {
+   border: 1px solid rgb(141, 141, 141);
+   border-radius: 5px;
+}
+/* fine email form */
+

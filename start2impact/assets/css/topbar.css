@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box
+  }
+  
+.top-menu {
+    background-color: transparent;
+    color: black;
+    position: fixed;
+    right: 30%;
+    left: 94%;
+    transform: translate(-50%, -50%);
+    top: 30px;
+    width: 100px;
+    border-radius: 4px;
+}
+
+.icona4 {
+    width: 48px;
+    position: fixed;
+    left: 75px;
+    top: 3px;
+}
+
+ .icona4:hover {
+    width: 62%;
+    top: 2px;
+}
+
+
+.text4 {
+    color: #C7FF6E;
+    text-decoration: none;
+    font-style: bold;
+    margin: 18px;
+}
+
+.text5 {
+    display: inline-block;
+    position: relative;
+    left: 755px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.text6 {
+    display: inline-block;
+    position: relative;
+    left: 780px;
+    font-size: 20px;
+    top: 10px;
+}
+
+.tit {
+    max-width: 550px;
+    position: relative;
+    left: 10px;
+    top: -483px;
+    font-size: 13;
+    color: #C7FF6E
+}
