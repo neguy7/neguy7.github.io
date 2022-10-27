@@ -1,80 +1,140 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="it">
     <head>
-        <title>Coding With Francesco</title>
-        <link rel="icon" type="image/x-icon" href="/assets/images/icons/monitor.png">
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta charset="utf-8">
+        <title>Francesco Galario, developer</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        <link rel="stylesheet" href="assets/css/homepage.css"/>
-        <link rel="stylesheet" href="assets/css/default.css"/>
-        <link rel="stylesheet" href="assets/css/sidebar.css"/>
-        <link rel="stylesheet" href="assets/css/topbar.css"/>
-        <link rel="stylesheet" href="assets/css/pages.css"/>
+        <!-- Favicon -->
+        <link href="img/monitor.png" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+        <!-- Bootstrap Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
     </head>
 
-    <body class="main">
-    
-<div class="row">
-    <!-- Menu in alto --> 
-    
-        <div class="top-menu">
-            <p class="text4">Contatti</p>
-            <a href="/pages/contacts/">
-            <img class="icona4" src="assets/images/icons/test-account.png"></a>
-        </div>
+    <body>
+        <div class="wrapper">
+            <div class="sidebar">
+                <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
+                    <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3" src="img/profile.jpg">
+                    <h1 class="font-weight-bold">Francesco Galario</h1>
+                    <p class="mb-4">
+                        Ciao, sono <strong>Francesco Galario</strong> e sono un <strong>front-end developer</strong>. Mi occupo della creazione di siti web cioè implemento il design di una pagina web e 
+                        codifico tutti gli elementi che l’utente vede e con cui interagisce. <br>Nel dettaglio, mi occupo di: <i>implementare il design di una pagina web, formattare gli elementi web grafici, 
+                        statici e dinamici, aggiornare e mantenere nel tempo il codice frontend, assicurarmi che il codice venga visualizzato correttamente su piattaforme e browser differenti, risolvere 
+                        eventuali malfunzionamenti nel codice (bug).</i>
+                    </p>
+                    
 
-        <div class="text5">
-            <a href="/pages/skill/" style="text-decoration: none">Soft & Hard Skills</a>
-        </div>
+                    <div class="d-flex justify-content-center mb-5">
+                        <a class="btn btn-outline-primary mr-2" href="https://www.facebook.com/francescogalario" target="new_tab"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-primary mr-2" href="https://www.linkedin.com/in/francesco-galario/" target="new_tab"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-primary mr-2" href="https://www.instagram.com/neguy__/" target="new_tab"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
+                    <i class="fas fa-2x fa-angle-double-right text-primary"></i>
+                </div>
+            </div>
+            <div class="content">
+                <!-- Navbar Start -->
+                <div class="container p-0">
+                    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                        <a href="" class="navbar-brand d-block d-lg-none">Menu</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav m-auto">
+                                <a href="index.html" class="nav-item nav-link active">Home</a>
+                                <a href="contact.html" class="nav-item nav-link">Contattami</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- Navbar End -->
 
-        <div class="text6">
-            <a href="/pages/future/" style="text-decoration: none">Future</a>
-        </div>
-
-    <!-- Menu a sinistra --> 
-        <div class="col-2 sidebar">
-            <p class="text3">Social</p>
-            <a href="/pages/social/">
-            <img class="icona2" src="assets/images/icons/conference-call.png"> </a>
+                <!-- Home Start -->
+                <div class="container bg-white pt-5">
+                    <div class="row px-3 pb-5">
+                        <div class="col-md-12">
+                            <h4 class="mb-4 font-weight-bold"><a href="https://github.com/neguy7" target="new_tab"> -> Portfolio</h4></a>
+                            <img class="img-fluid float-left w-50 mr-4 mb-3" src="img/profile2.jpg">
+                            <p class="m-0">
+                                  Sono nato a Napoli il 20 dicembre del '99 e ci ho messo un bel po’ per capire la mia strada: questa è la condanna di chi ha molte passioni. Un giorno però, ho avuto l’illuminazione: 
+                                  fare qualcosa che provavo a fare già ad undici/dodici anni tramite youtube ossia creare siti web e giocare con i codici dei suddetti, se da piccolo mi divertivo così tanto ho pensato:
+                                  "perché non trasformarlo in un lavoro?" Anche perché "<strong>Scegli un lavoro che ami, e non dovrai lavorare neppure un giorno in vita tua</strong>" (Confucio). Quindi, nonostante
+                                  il mio differente percorso di studi (diploma come geometra), sto sviluppando le mie capacità tramite start2impact seguendo il corso per diventare un <strong>Full Stack web
+                                  Developer</strong>, e andrò fino in fondo. Altri miei interessi, oltre lo sviluppo di siti web, sono: la tecnologia in generale, il fai da te, lo sport, 
+                                  le lingue e leggere.
+                            </p>
+                            <p class="m-0">
+                                <br>
+                                <h3>Il mio futuro</h3>
+                                L'obiettivo è uno: diventare un full stack web developer con skills di ux design ed
+                                in futuro spaziare dallo sviluppo di siti web alla creazione di software e app e diventare allora
+                                un programmatore a 360°, a tutti gli effetti. La strada è lunga ma ogni viaggio inizia con un primo
+                                passo ed io l'ho già compiuto. 
+                            </p>
+                            <p class="m-0">
+                                <br>
+                                <h3>Soft&Hard skills</h3>
+                                <br>
+                                <ul>
+                                    <h4>Le mie soft skills:</h4>
+                                    <li>Comunicazione</li>
+                                    <li>Organizzazione</li>
+                                    <li>Puntualità</li>
+                                    <li>Precisione</li>
+                                    <li>Ordine</li>
+                                    <li>Lavoro di squadra</li>
+                                    <li>Pensiero critico</li>
+                                </ul> 
+                                <ul>
+                                    <h4>Le mie hard skills:</h4>
+                                    <li>Lingua inglese</li>
+                                    <li>HTML5 & CSS3</li>
+                                    <li>Bootstrap</li>
+                                    <li>GitHub</li>
+                                    <li>Sass</li>
+                                    <li>Sviluppo di siti web</li>
+                                    <li>Copywriting</li>
+                                    <li>Abilità informatiche</li>
+                                    <li>Autocad 2D</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Home End -->
                 
-            <p class="text2">Portfolio</p>
-            <a href="/pages/portfolio/">
-            <img class="icona3" src="assets/images/icons/program.png"> </a>
-            
-
-            <p class="text1">Home</p>
-            <a href="/">
-            <img class="icona1" src="assets/images/icons/home.png"> </a>
+                <!-- Footer Start -->
+            <div class="container py-4 bg-secondary text-center">
+                <p class="m-0 text-white">
+                    &copy; <a class="text-white font-weight-bold">Francesco, diritti riservati</a>.
+                </p>
+            </div>
+            <!-- Footer End -->
+            </div>
         </div>
+    
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
 
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
 
-    <!-- foto e bio --> 
-            <img class="foto" src="assets/images/IMG_6103.jpeg" style="width: 100%">
-            <p class="didascalia">
-            Questo sono io.
-            </p>
-
-            <p class="tit">Francesco Galario, Front-End Developer.</p>
-            <h2 class="bio2">About me  	
-                &#9998;</h2>
-
-        <div class="bio">
-            <p>
-                Ciao, sono <strong>Francesco Galario</strong> e sono un <strong>front-end developer</strong>. Mi occupo della creazione di siti web cioè implemento il design di una pagina web e 
-                codifico tutti gli elementi che l’utente vede e con cui interagisce. <br>Nel dettaglio, mi occupo di: <i>implementare il design di una pagina web, formattare gli elementi web grafici, 
-                statici e dinamici, aggiornare e mantenere nel tempo il codice frontend, assicurarmi che il codice venga visualizzato correttamente su piattaforme e browser differenti, risolvere 
-                eventuali malfunzionamenti nel codice (bug).</i></p>
-
-            <p> Sono nato a Napoli il 20 dicembre del '99 e ci ho messo un bel po’ per capire la mia strada: questa è la condanna di chi ha molte passioni. Un giorno però, ho avuto l’illuminazione: 
-                fare qualcosa che provavo a fare già ad undici/dodici anni tramite youtube ossia creare siti web e giocare con i codici dei suddetti, se da piccolo mi divertivo così tanto ho pensato:
-                "perché non trasformarlo in un lavoro?" Anche perché "<strong>Scegli un lavoro che ami, e non dovrai lavorare neppure un giorno in vita tua</strong>" (Confucio). Quindi, nonostante
-                il mio differente percorso di studi (diploma come geometra), sto sviluppando le mie capacità tramite start2impact seguendo il corso per diventare un <strong>Full Stack web
-                Developer</strong>, e andrò fino in fondo. Altri miei interessi, oltre lo sviluppo di siti web, sono: la tecnologia in generale, il fai da te, lo sport, 
-                le lingue e leggere. <br>
-            </p>
-        </div>
-    </div>  
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
     </body>
 </html>
-
