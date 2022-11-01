@@ -3781,7 +3781,6 @@ input[type=button].btn-block {
 }
 
 .nav-item:hover {
-  text-decoration: underline;
   transition: 0.6s;
   background-color: #6495ed;
 }
