@@ -6,7 +6,7 @@ First JavaScript App, a simple counter.
 
 ## Link: 
 
-neguy7.github.io/
+https://neguy7.github.io/
 
 ## Screenshots:
 
